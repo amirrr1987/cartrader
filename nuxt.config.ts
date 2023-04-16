@@ -1,23 +1,23 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: [
-    '@unocss/nuxt', 'nuxt-icon'
-],
+    modules: [
+        '@unocss/nuxt', 'nuxt-icon', "nuxt-lodash"
+    ],
 
-app: {
-    head: {
-        title: 'Amir Maghami',
-        meta: [
-            {
-                name: 'description',
-                content: 'Every thing about Nuxt 3'
-            }
-        ],
-        link: [
-            {
-                rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins'
-            }
-        ]
+    app: {
+        head: {
+            title: 'ExpressCar',
+            meta: [
+                {
+                    name: 'description',
+                    content: 'Find fast your car'
+                }
+            ],
+            link: [
+                {
+                    rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins'
+                }
+            ]
+        }
     }
-}
 })

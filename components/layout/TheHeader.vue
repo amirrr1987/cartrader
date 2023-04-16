@@ -1,11 +1,12 @@
 <template>
  <header>
-  <TheNavbar />
-  <TheHero />
+  <HeaderTheNavbar />
+  <LazyHeaderTheHero />
  </header>
 </template>
 
 <script setup lang="ts">
+
 
 </script>
 
