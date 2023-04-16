@@ -1,7 +1,7 @@
 <template>
  <header>
-  <HeaderTheNavbar />
-  <LazyHeaderTheHero />
+  <LayoutHeaderNavbar />
+  <LayoutHeaderHero />
  </header>
 </template>
 

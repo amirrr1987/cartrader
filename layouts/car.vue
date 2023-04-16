@@ -1,8 +1,8 @@
 <template>
   <div class="grid grid-rows-[max-content_1fr_max-content] min-h-screen">
-    <HeaderTheNavbar/>
-    <LayoutTheMain />
-    <LayoutTheFooter />
+    <LayoutHeaderNavbar />
+    <LayoutMain />
+    <LayoutFooter />
   </div>
 </template>
 
