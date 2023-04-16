@@ -9,6 +9,19 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.4.1"
+    "@types/node": "^18.15.11",
+    "@unocss/nuxt": "^0.51.4",
+    "nuxt": "^3.4.1",
+    "@unocss/transformer-compile-class": "^0.51.4",
+    "@unocss/transformer-directives": "^0.51.4",
+    "@unocss/transformer-variant-group": "^0.51.4",
+    "nuxt-icon": "^0.3.3",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.51.4",
+    "@unocss/config": "^0.51.4",
+    "@unocss/nuxt": "^0.51.4"
   }
 }
