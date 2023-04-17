@@ -1,8 +1,9 @@
 <template>
-  <div class="grid grid-rows-[max-content_1fr_max-content] min-h-screen">
-    <LayoutHeader />
-    <LayoutMain />
-    <LayoutFooter />
+  <div class="grid grid-rows-[max-content_max-content_1fr_max-content] min-h-screen">
+    <Navbar />
+    <CarHero />
+    <Main />
+    <Footer />
   </div>
 </template>
 

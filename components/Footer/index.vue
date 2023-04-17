@@ -145,7 +145,7 @@
       </div>
     </div>
 
-    <LayoutFooterCopyright />
+    <FooterCopyright />
   </footer>
 </template>
 

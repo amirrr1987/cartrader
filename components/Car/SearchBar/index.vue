@@ -6,7 +6,10 @@
         placeholder="Search City" aria-label="Search" aria-describedby="button-addon1" v-model="city"
         @keyup.enter="searchBarHandler" />
 
-
+      <select v-model="searchBy" class="outline-none border-0">
+        <option value="cities">City</option>
+        <option value="brands">Brand</option>
+      </select>
       <!--Search button-->
       <button
         class="relative z-[2] flex items-center rounded-r bg-primary  px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
@@ -33,8 +36,11 @@
 
 <script setup lang="ts">
 const city = ref("")
+const searchBy = ref("cities")
 const searchBarHandler = () => {
-  navigateTo(`/cities/${useToLower(city.value)}`)
+  if (searchBy.value && city.value) {
+    navigateTo(`/${searchBy.value}/${useToLower(city.value)}`)
+  }
 }
 </script>
 

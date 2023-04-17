@@ -9,7 +9,7 @@
       <div class="text-center text-white w-96">
         <h1 class="mb-6 text-5xl font-bold">Express car</h1>
         <h1 class="mb-6 text-4xl font-bold">Find your drive</h1>
-        <LayoutHeaderHeroSearchBar />
+        <CarSearchBar />
       </div>
     </div>
   </div>
